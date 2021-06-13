@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Mark</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="box mx-auto text-center w-auto px-3">
+                <div class="lightbar"></div>
+                <h1 class="text-capitalize mx-auto m-5 p-2 w-auto">book your favorite sites</h1>
+                <div class="black-layer"></div>
+            </div>
+        </div>
+        <hr class="my-3">
+        <div class="form flex-column d-flex p-4 rounded mt-3">
+            <label for="siteName" class="text-capitalize font-weight-bold my-3">site name :</label>
+            <input type="text" class="mb-3 py-2 px-3 rounded w-75 mx-auto" placeholder="Bookmark Name" id="nameInp">
+            <div class="alert w-75 mx-auto"></div>
+            <label for="siteUrl" class="text-capitalize font-weight-bold my-3">site <span class="text-uppercase">url :</span></label>
+            <input type="text" class="mb-3 py-2 px-3 rounded w-75 mx-auto" placeholder="website URL" id="urlInp">
+            <div class="alert w-75 mx-auto">B300FF</div>
+            <button type="submit" class="btn btn-primary w-auto align-self-center my-4" id="submitBtm">Submit</button>
+        </div>
+        <hr class="my-1">
+        <div class="row">
+            <div id="list"></div>    
+        </div>
+        <hr  class="my-3">
+        <footer>
+            <div class="row px-3 pt-3">
+                <p class="font-weight-bold text-capitalize">© 2019 bookmarker inc.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+</html>
