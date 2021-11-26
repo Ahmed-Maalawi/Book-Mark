@@ -216,6 +216,10 @@ footer p {
         -o-transform: scale(0);
     }
 
+    100% {
+        width: 0%;
+    }
+
 }
 
 @keyframes fade-in {
@@ -259,6 +263,9 @@ footer p {
 
     90% {left: 105%;} 
 
-    95%,100% {left: 105%;}
+    95%,100% {
+        left: 105%;
+        width: 0%;
+    }
 
 }
